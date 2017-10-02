@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_144" class="java.beans.XMLDecoder">
+ <object class="huffman.HuffNode">
+  <void property="myFrequency">
+   <int>26</int>
+  </void>
+  <void property="myLeft">
+   <object class="huffman.HuffNode">
+    <void property="myFrequency">
+     <int>10</int>
+    </void>
+    <void property="myLeft">
+     <object class="huffman.HuffNode">
+      <void property="myFrequency">
+       <int>4</int>
+      </void>
+      <void property="myLeft">
+       <object class="huffman.HuffNode">
+        <void property="myFrequency">
+         <int>2</int>
+        </void>
+        <void property="myLeft">
+         <object class="huffman.HuffNode">
+          <void property="myChar">
+           <char>y</char>
+          </void>
+          <void property="myFrequency">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+        <void property="myRight">
+         <object class="huffman.HuffNode">
+          <void property="myChar">
+           <char>.</char>
+          </void>
+          <void property="myFrequency">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="myRight">
+       <object class="huffman.HuffNode">
+        <void property="myFrequency">
+         <int>2</int>
+        </void>
+        <void property="myLeft">
+         <object class="huffman.HuffNode">
+          <void property="myChar">
+           <char>k</char>
+          </void>
+          <void property="myFrequency">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+        <void property="myRight">
+         <object class="huffman.HuffNode">
+          <void property="myChar">
+           <char>l</char>
+          </void>
+          <void property="myFrequency">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="myRight">
+     <object class="huffman.HuffNode">
+      <void property="myFrequency">
+       <int>6</int>
+      </void>
+      <void property="myLeft">
+       <object class="huffman.HuffNode">
+        <void property="myFrequency">
+         <int>2</int>
+        </void>
+        <void property="myLeft">
+         <object class="huffman.HuffNode">
+          <void property="myChar">
+           <char>i</char>
+          </void>
+          <void property="myFrequency">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+        <void property="myRight">
+         <object class="huffman.HuffNode">
+          <void property="myChar">
+           <char>E</char>
+          </void>
+          <void property="myFrequency">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="myRight">
+       <object class="huffman.HuffNode">
+        <void property="myChar">
+         <char> </char>
+        </void>
+        <void property="myFrequency">
+         <int>4</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="myRight">
+   <object class="huffman.HuffNode">
+    <void property="myFrequency">
+     <int>16</int>
+    </void>
+    <void property="myLeft">
+     <object class="huffman.HuffNode">
+      <void property="myChar">
+       <char>e</char>
+      </void>
+      <void property="myFrequency">
+       <int>8</int>
+      </void>
+     </object>
+    </void>
+    <void property="myRight">
+     <object class="huffman.HuffNode">
+      <void property="myFrequency">
+       <int>8</int>
+      </void>
+      <void property="myLeft">
+       <object class="huffman.HuffNode">
+        <void property="myFrequency">
+         <int>4</int>
+        </void>
+        <void property="myLeft">
+         <object class="huffman.HuffNode">
+          <void property="myChar">
+           <char>n</char>
+          </void>
+          <void property="myFrequency">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+        <void property="myRight">
+         <object class="huffman.HuffNode">
+          <void property="myChar">
+           <char>s</char>
+          </void>
+          <void property="myFrequency">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="myRight">
+       <object class="huffman.HuffNode">
+        <void property="myFrequency">
+         <int>4</int>
+        </void>
+        <void property="myLeft">
+         <object class="huffman.HuffNode">
+          <void property="myChar">
+           <char>a</char>
+          </void>
+          <void property="myFrequency">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+        <void property="myRight">
+         <object class="huffman.HuffNode">
+          <void property="myChar">
+           <char>r</char>
+          </void>
+          <void property="myFrequency">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
